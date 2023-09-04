@@ -1,0 +1,30 @@
+#versand-cont {
+	width: 100%;
+}
+
+#vers {
+	marging-left: 50%;
+	font-size: 30px;
+}
+#vers .ul0 {
+	float: left;
+	margin-left: 25%;
+    border: solid .1px;
+    background-color: grey;
+    padding: 1%; padding-right: 3.89%; padding-left: 3.89%;
+}
+#vers .ul1 {
+	float: right;
+	margin-right: 25%;
+    border: solid .1px;
+    background-color: grey;
+    padding: 1%; padding-right: 3.89%; padding-left: 3.89%;
+}
+
+#vers li {
+	overflow: hidden;
+}
+#v-preis { 
+	margin-top: 7%;
+	font-size: 20px;
+}
