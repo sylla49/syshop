@@ -14,13 +14,15 @@ $().ready( ()=>{
 	// browser Language 
 	var userLang = navigator.language || navigator.userLanguage; 
 
-
-	alert("Die Parameter wurde für eine "+"\n"+ "eine GALAXY Note 20 Ultra Firefox festgelegt "+"\n"+
-		"und kann auf anderen Telefonen anders aussehen"+"\n"+"DANKE FÜR IHRE VERSTANDNIS! SYLLA-FREELANCER");
     // Galaxy Note20 Ultra screen
     
 	if ( width <= 414 ){
 	
+	    alert("    Handy parameter wurde für "+"\n"+
+		   "eine GALAXY Note 20 Ultra Firefox festgelegt "+
+	  "\n"+"und kann auf anderen Telefonen anders aussehen"+
+	  "\n"+"DANKE FÜR IHRE VERSTANDNIS! SYLLA-FREELANCER");
+
         $('.wiederrufInfo').html("Versandkonditionen ++");
 
 		$('#dv-content .menu').css({});

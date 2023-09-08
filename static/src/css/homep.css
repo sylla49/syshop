@@ -38,7 +38,10 @@ body { margin: 0px; padding: 0px; background-color: whitesmoke; display: block; 
 }
 .nav ul { margin-left: -15%; margin-top: 3.2%; }
 .nav li { float: left; padding: 0.8%; overflow:hidden; }
-.nav a { text-decoration: none; font-size: 20px; color: lightcyan; }
+.nav a { 
+	text-decoration: none; font-size: 20px; 
+	color: lightcyan; text-shadow: 0.5px 1px 0.5px black; 
+}
 /* ------------------------------------------------------------------------------------  */
 .nav li:hover {
 	background-color: white;
@@ -113,12 +116,16 @@ hr { margin-left: 11%; }
 }
 #rechtinfo li a {
 	text-decoration: none;
+	color: white;
+	text-shadow: 0.5px 1px 0.5px black;
 }
 #rechtinfo li:hover {
 	background-color: white;
 }
 #rechtinfo li:hover a {
 	text-decoration: underline;
+	color: black;
+	text-shadow: 0.5px 1px 0.5px red;
 }
 
 #center-info {

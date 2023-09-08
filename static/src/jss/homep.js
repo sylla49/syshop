@@ -345,9 +345,15 @@ $().ready(()=>{
 	})();
 
 // in bearbeitung info
-	$('.zeig, ').on("click", ()=>{
-		alert("Die zeite ist noch in Bearbeitung !"+"\n"+"Danke für ihre Verstandis! ;-)");
-	});
+	const bearbeitung = () =>{
+		let msg = "Die zeite ist noch in Bearbeitung !"+
+		"\n"+"Danke für ihre Verstandis! ;-)";
+
+		alert(msg);
+		return;
+	};
     
-    alert("SYLLA-FREELANCER DESIGN");
+    $('.nav a, #rechtinfo a').on("click", ()=>{
+    	bearbeitung();
+    });
 });
